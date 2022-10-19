@@ -1,0 +1,18 @@
+#nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--main-red);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+  }
+
+@media (max-width: 800px){
+  body{
+  font-size:20px;
+  }
+}
+
